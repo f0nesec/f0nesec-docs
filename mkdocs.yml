@@ -1,0 +1,80 @@
+# 站点基础信息
+site_name: F0ne's Docs              # 网站标题（显示在浏览器标签页 & 左上角）
+site_description: 这是一个网络安全知识库。  # 网站描述（SEO 用）
+site_url: https://example.com       # 站点正式访问地址（GitHub Pages 必填）
+
+# GitHub 仓库相关（右上角图标）
+repo_url: https://github.com/f0nesec/f0nesec-docs   # 仓库地址（右上角跳转）
+repo_name: GitHub                      # 图标旁显示的文字
+repo_icon: fontawesome/brands/github   # 使用 FontAwesome 的 GitHub 图标
+
+# 页脚版权信息
+copyright: Copyright &copy; 2026 Martin Donath
+
+# 额外配置
+extra:
+  generator: false   # 关闭页脚的 “Made with Material for MkDocs”
+
+# Markdown 功能扩展
+markdown_extensions:
+
+  # 目录 / 锚点
+  - toc:
+      permalink: true # 每个标题右侧生成一个 ¶ 图标
+
+  # 提示框
+  - admonition  # 启用 !!! note / warning / tip / danger 等提示块
+
+  - pymdownx.details  # 允许提示框折叠（??? note）
+
+  # 代码块增强
+  - pymdownx.superfences  # 允许：提示框里嵌套代码，Mermaid / 多语言代码块
+
+  - pymdownx.highlight:
+      linenums: true            # 显示代码行号（核心）
+      anchor_linenums: true     # 行号可点击（生成锚点）
+      line_spans: __span        # Material 推荐配置（用于高亮/复制）
+      pygments_lang_class: true # 给代码块加 language-xxx 类名
+      auto_title: true          # 自动显示代码框类型，不定义需要通过 tilte=""指定
+
+  - pymdownx.inlinehilite # 支持行内代码高亮：`==highlight==`
+
+  - pymdownx.keys # 支持快捷键样式：++ctrl+alt+del++
+
+  - pymdownx.snippets # 支持从外部文件插入代码，例如：--8<-- "code/example.py"
+
+# 主题配置（Material）
+theme:
+  name: material          # 使用 Material for MkDocs
+  language: zh            # 界面语言为中文
+
+  # 主题功能
+  features:
+    - content.code.copy     # 代码块右上角「复制按钮」
+    - content.code.select   # 代码块支持鼠标拖拽选择
+    - navigation.top        # 滚动后显示返回顶部按钮
+    - search.suggest        # 搜索联想
+    - search.highlight      # 搜索结果高亮
+    - search.share          # 搜索结果可分享链接
+
+  # 颜色方案
+  palette:
+    # 默认深色模式
+    - scheme: slate
+      primary: indigo       # 顶部导航栏主色
+      accent: indigo        # 链接 / 按钮 / 高亮色
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+    # 可切换的浅色模式
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+
+  # 图标
+  favicon: img/title.png   # 浏览器标签页小图标
+  logo: img/logo.png       # 左上角站点 Logo
