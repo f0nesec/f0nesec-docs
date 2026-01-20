@@ -9,15 +9,15 @@ hide:
 
 **记录网络安全常用笔记（点击可跳转指定模块）**
 
-- [Web 应用程序安全](Web-Application-Security)
-- [活动目录安全（域控）](Active-Directory-Security)
-- [移动应用程序安全](Mobile-Application-Security)
-- [本地权限提升](Local-Privilege-Escalation)
-- [横向移动](Lateral-Movement)
-- [凭证攻击](Credential-Attacks)
-- [代码审计](Code-Audit)
-- [检测与规避技术](Detection-Evasion)
-- [考试与认证专题](Certifications)
+- [Web 应用程序安全](Web-Application-Security/index.md)
+- [活动目录安全（域控）](Active-Directory-Security/index.md)
+- [移动应用程序安全](Mobile-Application-Security/index.md)
+- [本地权限提升](Local-Privilege-Escalation/index.md)
+- [横向移动](Lateral-Movement/index.md)
+- [凭证攻击](Credential-Attacks/index.md)
+- [代码审计](Code-Audit/index.md)
+- [检测与规避技术](Detection-Evasion/index.md)
+- [考试与认证专题](Certifications/index.md)
 
 **知识库于 2026 年 1 月创建，内容将持续更新。欢迎广大安全爱好者加入，共同打造全面的中文网络安全知识库。**
 
