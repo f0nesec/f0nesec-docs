@@ -1,11 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
-         <lastmod>2026-01-16</lastmod>
+         <loc>https://f0nesec.github.io/f0nesec-docs/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
     <url>
-         <loc>https://example.com/test/</loc>
-         <lastmod>2026-01-16</lastmod>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Active-Directory-Security/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSED/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSEP/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSWE/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Code-Audit/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Credential-Attacks/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Detection-Evasion/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Lateral-Movement/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Linux/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Windows/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Mobile-Application-Security/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Web-Application-Security/</loc>
+         <lastmod>2026-01-20</lastmod>
     </url>
 </urlset>
