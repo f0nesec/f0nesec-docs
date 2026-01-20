@@ -104,18 +104,35 @@ extra:
 
 # 配置目录结构
 nav:
-  - 'Web应用程序安全':
-    - '测试': Web-Application-Vulnerabilities/readme.md
-  - '活动目录安全（域控）':
-    - '测试': Active-Directory-Vulnerabilities/readme.md
-  - '移动应用程序安全':
-    - '测试': Mobile-Application-Vulnerabilities/readme.md
-  - '本地权限提升':
-    - 'Windows本地权限提升':
-      - '测试': Local-Privilege-Escalation/Windows/readme.md
-    - 'Linux本地权限提升': 
-      - '测试': Local-Privilege-Escalation/Linux/readme.md
-  - '代码审计':
-    - '测试': Vulnerability-Code-Audit/readme.md
-  - '检测规避技术':
-    - '测试': Detection-Evasion-Techniques/readme.md
+  - 首页: index.md
+  - Web 应用程序安全:
+      - 概述: Web-Application-Security/index.md
+  - 活动目录安全（域控）:
+      - 概述: Active-Directory-Security/index.md
+  - 移动应用程序安全:
+      - 概述: Mobile-Application-Security/index.md
+  - 本地权限提升:
+      - 概述: Local-Privilege-Escalation/index.md
+      - Windows 本地权限提升:
+          - 概述: Local-Privilege-Escalation/Windows/index.md
+      - Linux 本地权限提升:
+          - 概述: Local-Privilege-Escalation/Linux/index.md
+  - 横向移动:
+    - 概述: Lateral-Movement/index.md
+  - 凭证攻击:
+    - 概述: Credential-Attacks/index.md
+  - 代码审计:
+      - 概述: Code-Audit/index.md
+  - 检测与规避技术:
+      - 概述: Detection-Evasion/index.md
+  - 考试与认证专题:
+      - 概述: Certifications/index.md
+      - OSCP 认证:
+        - Certifications/OSCP/index.md
+      - OSWE 认证:
+        - Certifications/OSWE/index.md
+      - OSEP 认证:
+        - Certifications/OSEP/index.md
+      - OSED 认证:
+        - Certifications/OSED/index.md
+
