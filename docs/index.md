@@ -7,7 +7,7 @@ hide:
 
 ## **F0ne 网络安全知识库**
 
-**记录网络安全常用笔记（点击可跳转指定模块）**
+**记录网络安全常用笔记（点击跳转指定模块）**
 
 - [Web 应用程序安全](Web-Application-Security/index.md)
 - [活动目录安全（域控）](Active-Directory-Security/index.md)

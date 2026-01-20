@@ -5,7 +5,8 @@ site_url: https://f0nesec.github.io/f0nesec-docs/       # 站点正式访问地�
 
 # GitHub 仓库相关（右上角图标）
 repo_name: f0nesec/f0nesec-docs   # 图标旁显示的文字
-repo_url: https://github.com/f0nesec/f0nesec-docs   # 仓库地址（右上角跳转） 
+repo_url: https://github.com/f0nesec/f0nesec-docs   # 仓库地址（右上角跳转）
+edit_uri: blob/main/docs/ # 编辑代码
 
 # 页脚版权信息
 # copyright: Copyright &copy; 2026 Martin Donath
@@ -56,11 +57,14 @@ theme:
     - search.suggest        # 搜索联想
     - search.highlight      # 搜索结果高亮
     - search.share          # 搜索结果可分享链接
+    - content.action.edit   # 开启查看源码
+    - content.action.view   # 开启编辑源码操作
 
   # 颜色方案
   palette:
     # 默认深色模式
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black       # 顶部导航栏主色
       accent: deep orange   # 链接 / 按钮 / 高亮色
       toggle:
@@ -68,12 +72,19 @@ theme:
         name: 切换浅色模式
 
     # 可切换的浅色模式
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: deep orange
       toggle:
         icon: material/toggle-switch
         name: 切换深色模式
+
+    # 自动切换，根据系统主题自动切换
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 自动
 
   # 图标
   favicon: assets/title.png   # 浏览器标签页小图标
