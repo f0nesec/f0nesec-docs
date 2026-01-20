@@ -1,0 +1,29 @@
+# 初始化git
+git init
+
+git branch -M main
+
+git remote add origin git@github.com:f0nesec/f0nesec-docs
+
+git remote -v
+
+# 邮箱用户名设置
+git config --global user.email "xx@xx.com"
+git config --global user.name "f0nesec"
+
+
+# 推送代码前，定义.gitignore文件，指定需要推送的文件及目录
+mkdocs.yml
+docs/
+gitignore
+README.md
+
+# 推送代码
+
+git add .
+git commit -m "update by F0ne"
+git push origin main
+
+
+# 推送网页
+mkdocs gh-deploy

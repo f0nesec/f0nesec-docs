@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# F0ne 网络安全知识库
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+记录网络安全常用笔记，包含Web、操作系统以及域控渗透技巧。
 
-## Commands
+!!! tip "提示"
+	知识库于2026年1月创建，后续将持续更新！！！
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! example "开放"
+	一个人的力量总是有限的，欢迎广大安全爱好者加入这里，打造一份全面的中文网络安全知识库！！！
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 相关链接
+
+[F0ne 个人博客](https://f0nesec.github.io/)

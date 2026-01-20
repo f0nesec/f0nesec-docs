@@ -1,19 +1,18 @@
 # 站点基础信息
 site_name: F0ne's Docs              # 网站标题（显示在浏览器标签页 & 左上角）
 site_description: 这是一个网络安全知识库。  # 网站描述（SEO 用）
-site_url: https://example.com       # 站点正式访问地址（GitHub Pages 必填）
+site_url: https://f0nesec.github.io/f0nesec-docs/       # 站点正式访问地址（GitHub Pages 必填）
 
 # GitHub 仓库相关（右上角图标）
-repo_url: https://github.com/f0nesec/f0nesec-docs   # 仓库地址（右上角跳转）
-repo_name: GitHub                      # 图标旁显示的文字
-repo_icon: fontawesome/brands/github   # 使用 FontAwesome 的 GitHub 图标
+repo_name: f0nesec/f0nesec-docs   # 图标旁显示的文字
+repo_url: https://github.com/f0nesec/f0nesec-docs   # 仓库地址（右上角跳转） 
 
 # 页脚版权信息
-copyright: Copyright &copy; 2026 Martin Donath
+# copyright: Copyright &copy; 2026 Martin Donath
 
 # 额外配置
 extra:
-  generator: false   # 关闭页脚的 “Made with Material for MkDocs”
+  generator: true   # 关闭、开启页脚的 “Made with Material for MkDocs”
 
 # Markdown 功能扩展
 markdown_extensions:
@@ -47,7 +46,8 @@ markdown_extensions:
 theme:
   name: material          # 使用 Material for MkDocs
   language: zh            # 界面语言为中文
-
+  icon:
+    repo: fontawesome/brands/git-alt # 使用 FontAwesome 的 GitHub 图标
   # 主题功能
   features:
     - content.code.copy     # 代码块右上角「复制按钮」
@@ -61,20 +61,61 @@ theme:
   palette:
     # 默认深色模式
     - scheme: slate
-      primary: indigo       # 顶部导航栏主色
-      accent: indigo        # 链接 / 按钮 / 高亮色
+      primary: black       # 顶部导航栏主色
+      accent: deep orange   # 链接 / 按钮 / 高亮色
       toggle:
-        icon: material/weather-sunny
+        icon: material/toggle-switch-off-outline
         name: 切换浅色模式
 
     # 可切换的浅色模式
     - scheme: default
-      primary: white
-      accent: indigo
+      primary: indigo
+      accent: deep orange
       toggle:
-        icon: material/weather-night
+        icon: material/toggle-switch
         name: 切换深色模式
 
   # 图标
-  favicon: img/title.png   # 浏览器标签页小图标
-  logo: img/logo.png       # 左上角站点 Logo
+  favicon: assets/title.png   # 浏览器标签页小图标
+  logo: assets/logo.png       # 左上角站点 Logo
+
+# 配置插件
+plugins:
+  # 显示更新创建日期
+  - git-revision-date-localized:
+      fallback_to_build_date: true  # 设置文档修改日期
+      # enable_creation_date: true  # 设置文档创建日志
+  # 显示作者的头像
+  - git-committers:
+      repository: f0nesec/f0nesec-docs
+      branch: main
+  # 采用压缩和转换技术优化网站
+  - optimize
+
+# 社交链接
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/f0nesec
+      name: Github
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/MWKGN3AqG
+      name: Discord
+
+# 配置目录结构
+nav:
+  - 'Web应用程序安全':
+    - '测试': Web-Application-Vulnerabilities/readme.md
+  - '活动目录安全（域控）':
+    - '测试': Active-Directory-Vulnerabilities/readme.md
+  - '移动应用程序安全':
+    - '测试': Mobile-Application-Vulnerabilities/readme.md
+  - '本地权限提升':
+    - 'Windows本地权限提升':
+      - '测试': Local-Privilege-Escalation/Windows/readme.md
+    - 'Linux本地权限提升': 
+      - '测试': Local-Privilege-Escalation/Linux/readme.md
+  - '代码审计':
+    - '测试': Vulnerability-Code-Audit/readme.md
+  - '检测规避技术':
+    - '测试': Detection-Evasion-Techniques/readme.md
