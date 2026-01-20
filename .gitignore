@@ -1,4 +1,6 @@
-mkdocs.yml
-docs/
-gitignore
-README.md
+.DS_Store
+site/
+.cache/
+__pycache__/
+*.log
+Git.txt
