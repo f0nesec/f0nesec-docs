@@ -123,27 +123,68 @@ nav:
   - 移动应用程序安全:
       - 概述: Mobile-Application-Security/index.md
   - 本地权限提升:
-      - 概述: Local-Privilege-Escalation/index.md
-      - Windows 本地权限提升:
-          - 概述: Local-Privilege-Escalation/Windows/index.md
-      - Linux 本地权限提升:
-          - 概述: Local-Privilege-Escalation/Linux/index.md
+    - 概述: Local-Privilege-Escalation/index.md
+    - Windows 本地权限提升:
+        - 概述: Local-Privilege-Escalation/Windows/index.md
+    - Linux 本地权限提升:
+        - 概述: Local-Privilege-Escalation/Linux/index.md
   - 横向移动:
     - 概述: Lateral-Movement/index.md
   - 凭证攻击:
     - 概述: Credential-Attacks/index.md
   - 代码审计:
-      - 概述: Code-Audit/index.md
+    - 概述: Code-Audit/index.md
   - 检测与规避技术:
-      - 概述: Detection-Evasion/index.md
+    - 概述: Detection-Evasion/index.md
   - 考试与认证专题:
-      - 概述: Certifications/index.md
-      - OSCP 认证:
-        - Certifications/OSCP/index.md
-      - OSWE 认证:
-        - Certifications/OSWE/index.md
-      - OSEP 认证:
-        - Certifications/OSEP/index.md
-      - OSED 认证:
-        - Certifications/OSED/index.md
-
+    - 概述: Certifications/index.md
+    - OSCP 认证:
+      - Certifications/OSCP/index.md
+    - OSWE 认证:
+      - Certifications/OSWE/index.md
+    - OSEP 认证:
+      - Certifications/OSEP/index.md
+    - OSED 认证:
+      - Certifications/OSED/index.md
+  - Python 速查笔记:
+    - 概述: Python/index.md
+    - 基础知识: Python/0.md
+    - 变量和字符串: Python/1.md
+    - 数字类型: Python/2.md
+    - 布尔类型: Python/3.md
+    - 分支和循环: Python/4.md
+    - 列表: Python/5.md
+    - 元组: Python/6.md
+    - 字符串: Python/7.md
+    - 序列: Python/8.md
+    - 字典: Python/9.md
+    - 集合: Python/10.md
+    - 函数: Python/11.md
+    - 永久储存: Python/12.md
+    - 异常处理: Python/13.md
+    - 类和对象_基本特性: Python/14.md
+    - 类和对象_变量: Python/15.md
+    - 类和对象_魔法方法: Python/16.md
+    - 运算相关的魔法方法: Python/17.md
+    - 模块和包: Python/18.md
+    - 并发编程: Python/19.md
+    - 多线程: Python/20.md
+    - 线程池: Python/21.md
+    - 多进程、进程池: Python/22.md
+    - 多任务异步协程: Python/23.md
+    - 常用模块: 
+      - decimal 模块: Python/Module/decimal.md
+      - eval 模块: Python/Module/eval.md
+      - exec 模块: Python/Module/exec.md
+      - hashlib 模块: Python/Module/hashlib.md
+      - json 模块: Python/Module/json.md
+      - open 模块: Python/Module/open.md
+      - openpyxl 模块: Python/Module/openpyxl.md
+      - pathlib 模块: Python/Module/pathlib.md
+      - print 模块: Python/Module/print.md
+      - random 模块: Python/Module/random.md
+      - range 模块: Python/Module/range.md
+      - re 模块: Python/Module/re.md
+      - requstes 模块: Python/Module/requstes.md
+      - time 模块: Python/Module/time.md
+      - xpinyin 模块: Python/Module/xpinyin.md

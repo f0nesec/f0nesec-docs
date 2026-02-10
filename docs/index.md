@@ -1,5 +1,5 @@
 ---
-# 隐藏主页目录和索引
+# 隐藏主页导航和目录
 hide:
   - navigation
   - toc
@@ -7,7 +7,7 @@ hide:
 
 ## **F0ne 网络安全知识库**
 
-**记录网络安全常用笔记（点击跳转指定模块）**
+**记录网络安全常用笔记（点击跳转指定模块）🔗🔗🔗**
 
 - [Web 应用程序安全](Web-Application-Security/index.md)
 - [活动目录安全（域控）](Active-Directory-Security/index.md)
@@ -18,12 +18,13 @@ hide:
 - [代码审计](Code-Audit/index.md)
 - [检测与规避技术](Detection-Evasion/index.md)
 - [考试与认证专题](Certifications/index.md)
+- [Python 速查笔记](Python/index.md)
 
 **知识库于 2026 年 1 月创建，内容将持续更新。欢迎广大安全爱好者加入，共同打造全面的中文网络安全知识库。**
 
 ## **相关链接**
 
-[F0ne 个人博客](https://f0nesec.github.io/)
+[F0ne 个人博客](https://www.f0nesec.top)
 
 !!! danger "注意事项"
 	**请仔细阅读如下声明。**
