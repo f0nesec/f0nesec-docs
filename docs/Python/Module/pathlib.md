@@ -79,7 +79,7 @@ test1 = Path("../doc")  # 当前路径的上一级doc目录
 	# 获取当前路径下的子文件和子文件夹，只能获取当前路径下的，获取不到全部的子文件夹和子文件
   test.iterdir()  # 是一个生成器，如果没有子文件和子文件夹则为空
   # 将当前路径下所有文件整理成一个列表，使用推导式
-  [i for i in test.iterdir() if i.is_file()]
+[i for i in test.iterdir() if i.is_file()]
 ```
 
 ### 路径修改
@@ -132,7 +132,7 @@ p.glob("*/*.txt")
 p.glob("**/*.txt")
 ```
 
-## 示例
+## 代码示例
 
 ```python
 # 在 pathlib 模块中，Path 对象有一个 glob() 方法，它提供了向下递归搜索的能力（如下），请自己编写一个递归函数，实现相同的搜索功能

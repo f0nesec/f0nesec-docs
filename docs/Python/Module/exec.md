@@ -33,7 +33,7 @@ exec(object, globals=None, locals=None, /)
 
 该函数的返回值为 None。
 
-## 示例
+## 代码示例
 
 ```python
 >>> # exec() 返回值总是 None；eval() 函数将返回表达式的计算结果

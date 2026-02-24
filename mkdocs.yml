@@ -139,13 +139,27 @@ nav:
   - 考试与认证专题:
     - 概述: Certifications/index.md
     - OSCP 认证:
-      - Certifications/OSCP/index.md
+      - 概述: Certifications/OSCP/index.md
+      - Windows 基础: Certifications/OSCP/0.md
+      - Linux 基础: Certifications/OSCP/1.md
+      - 被动信息收集: Certifications/OSCP/2.md
+      - 主动信息收集: Certifications/OSCP/3.md
+      - Web 基础: Certifications/OSCP/4.md
+      - 客户端攻击: Certifications/OSCP/5.md
+      - EXP 编辑: Certifications/OSCP/6.md
+      - 文件传输: Certifications/OSCP/7.md
+      - 密码破解: Certifications/OSCP/8.md
+      - Linux 提权: Certifications/OSCP/9.md
+      - Windows 提权: Certifications/OSCP/10.md
+      - 内网穿透: Certifications/OSCP/11.md
+      - 活动目录（域控）: Certifications/OSCP/12.md
+      - 常用工具: Certifications/OSCP/13.md
     - OSWE 认证:
-      - Certifications/OSWE/index.md
+      - 概述: Certifications/OSWE/index.md
     - OSEP 认证:
-      - Certifications/OSEP/index.md
+      - 概述: Certifications/OSEP/index.md
     - OSED 认证:
-      - Certifications/OSED/index.md
+      - 概述: Certifications/OSED/index.md
   - Python 速查笔记:
     - 概述: Python/index.md
     - 基础知识: Python/0.md

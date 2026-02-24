@@ -3,7 +3,7 @@
 > Python 内置了 requests 模块，该模块主要用来发送 HTTP 请求，requests 模块比 urllib 模块更简洁。
 >
 
-## 1.1 requests 对象响应信息方法
+## requests 对象响应信息方法
 
 每次调用 requests 请求之后，会返回一个 response 对象，该对象包含了具体的响应信息。
 
@@ -48,7 +48,7 @@ print(x.reason)
 print(x.apparent_encoding)
 ```
 
-## 2.1 requests 方法
+## requests 请求方法
 
 | 方法                        | 描述                          |
 | --------------------------- | ----------------------------- |
@@ -106,7 +106,7 @@ x = requests.request('get', 'https://www.runoob.com/')
 print(x.status_code)
 ```
 
-## 2.2 显示请求和响应过程
+## 显示请求和响应过程
 
 ```python
 import requests

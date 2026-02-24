@@ -3,7 +3,7 @@
 > Python 正则表达式库。
 >
 
-## 1.1 正则表达式基础语法
+## 正则表达式基础语法
 
 **元字符：** 具有固定含义的字符，只可以匹配单个字符。
 
@@ -47,7 +47,7 @@ a|b				匹配字符a或者字符b
 .*?		惰性匹配
 ```
 
-## 2.1 re 模块语法
+## 模块解析
 
 **大多数用到的方法是：** findall、search、match、findite。
 
@@ -55,7 +55,7 @@ a|b				匹配字符a或者字符b
 
 **findall 和 findite 区别：** findall 匹配返回元组或列表，而 findite 返回一个迭代器。
 
-### 2.1.1 正则表达式修饰符 - 可选标志
+### 正则表达式修饰符 - 可选标志
 
 正则表达式可以包含一些可选标志修饰符来控制匹配的模式。修饰符被指定为一个可选的标志。多个标志可以通过按位 `OR(|)` 它们来指定。如 `re.I | re.M` 被设置成 I 和 M 标志：
 
@@ -68,7 +68,7 @@ a|b				匹配字符a或者字符b
 | re.U   | 表示特殊字符集 \w, \W, \b, \B, \d, \D, \s, \S 依赖于 Unicode 字符属性数据库 |
 | re.X   | 为了增加可读性，忽略空格和 **#** 后面的注释                                 |
 
-### 2.1.2 re.compile 方法
+### re.compile 方法
 
 compile 函数用于编译正则表达式，生成一个正则表达式 Pattern 对象，供函数使用。
 
@@ -108,7 +108,7 @@ None
 - `end([group])` 方法用于获取分组匹配的子串在整个字符串中的结束位置（子串最后一个字符的索引`+1`），参数默认值为 0；
 - `span([group])` 方法返回 `(start(group), end(group))`。
 
-### 2.1.3 re.match 方法
+### re.match 方法
 
 re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match() 就返回 none。
 
@@ -148,7 +148,7 @@ print(matchObj.group(2))  # smarter
 print(matchObj.group('name'))  # Cats
 ```
 
-### 2.1.4 re.search 方法
+### re.search 方法
 
 re.search 扫描整个字符串并返回第一个成功的匹配。
 
@@ -188,7 +188,7 @@ print(searchObj.group(2))  # smarter
 print(searchObj.group('name'))  # Cats
 ```
 
-### 2.1.5 re.findall 方法
+### re.findall 方法
 
 **findall：** 在字符串中找到正则表达式所匹配的所有子串，并返回一个列表，如果有多个匹配模式，则返回元组列表，如果没有找到匹配的，则返回空列表，多匹配模式只在一个匹配过程中，正则语句存在多个匹配项，该过程会返回元组。
 
@@ -214,7 +214,7 @@ result = re.findall(r'(\w+)=(\d+)', 'set width=20 and height=10')
 print(result)  # [('width', '20'), ('height', '10')]
 ```
 
-### 2.1.6 re.findite 方法
+### re.findite 方法
 
 findite 和 findall 类似，在字符串中找到正则表达式所匹配的所有子串，并把它们作为一个迭代器返回。
 
@@ -240,7 +240,7 @@ for match in it:
 # 3
 ```
 
-### 2.1.7 检索和替换 re.sub 方法
+### 检索和替换 re.sub 方法
 
 Python 的 re 模块提供了`re.sub`用于替换字符串中的匹配项。
 
@@ -283,7 +283,7 @@ s = 'A23G4HFD567'
 print(re.sub('(?P<value>\d+)', double, s))  # A46G8HFD1134
 ```
 
-### 2.1.8 re.split 方法
+### re.split 方法
 
 split 方法按照能够匹配的子串将字符串分割后返回列表。
 
@@ -311,13 +311,13 @@ split 方法按照能够匹配的子串将字符串分割后返回列表。
 ['hello world']
 ```
 
-## 2.2 正则表达式对象
+## 正则表达式对象
 
-### 2.1.1 re.RegexObject
+### re.RegexObject
 
 `re.compile() ` 返回 RegexObject 对象。
 
-### 2.1.2 re.MatchObject
+### re.MatchObject
 
 `group() `返回被 RE 匹配的字符串。
 

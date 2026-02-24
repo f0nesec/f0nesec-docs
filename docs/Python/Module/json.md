@@ -1,6 +1,6 @@
 # json 模块
 
-> 同通过 Python 实现 json 编码和解码。
+> 通过 Python 实现 json 编码和解码。
 
 ## 模块解析
 
@@ -22,7 +22,7 @@
 | false         | False     |
 | null          | None      |
 
-## 示例
+## 代码示例
 
 ```python
 import json

@@ -29,7 +29,7 @@ eval(expression, globals=None, locals=None, /)
 
 返回执行的结果。
 
-## 示例
+## 代码示例
 
 ```python
 >>> # 将字符串作为 Python 表达式来执行

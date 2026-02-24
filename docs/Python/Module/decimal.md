@@ -7,7 +7,7 @@
 - **进行十进制运算：** `+、-、*、/、//、%、** ` 。
 - **设置十进制上下限：** `decimal.getcontext().prec `和 `decimal.getcontext().rounding` 。
 
-## 示例
+## 代码示例
 
 ```python
 import decimal

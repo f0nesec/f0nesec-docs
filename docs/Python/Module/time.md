@@ -30,7 +30,7 @@ print(localtime)
 ## time.struct_time(tm_year=2023, tm_mon=5, tm_mday=14, tm_hour=19, tm_min=52, tm_sec=18, tm_wday=6, tm_yday=134, tm_isdst=0)
 ```
 
-![](https://relay-img.f0nesec.top/python/time.png)
+![](../image/time.png)
 
 ```python
 import time

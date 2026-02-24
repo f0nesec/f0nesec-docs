@@ -11,13 +11,13 @@
 
 **参数解析：**
 
-![](https://relay-img.f0nesec.top/python/open_1.png)
+![](../image/open_1.png)
 
-![](https://relay-img.f0nesec.top/python/open_2.png)
+![](../image/open_2.png)
 
-**注 1：** 在某些 Unix 系统中，无论当前文件指针位于什么位置，所有的写入操作都将追加到文件末尾。
-**注 2：** 如果需要读写原生字节格式，请使用二进制模式，并且不要去指定 encoding 参数。
-**注 3：** 如果未指定 encoding 参数，则会根据当前平台决定编码格式，可以通过调用 locale.getpreferredencoding(False) 获取当前的编码。
+**注意 1：** 在某些 Unix 系统中，无论当前文件指针位于什么位置，所有的写入操作都将追加到文件末尾。
+**注意 2：** 如果需要读写原生字节格式，请使用二进制模式，并且不要去指定 encoding 参数。
+**注意 3：** 如果未指定 encoding 参数，则会根据当前平台决定编码格式，可以通过调用 locale.getpreferredencoding(False) 获取当前的编码。
 
 **返回值：**
 
