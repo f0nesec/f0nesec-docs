@@ -92,10 +92,12 @@ theme:
 
 # 配置插件
 plugins:
+  # 启用搜索
+  - search
   # 显示更新创建日期
   - git-revision-date-localized:
       fallback_to_build_date: true  # 设置文档修改日期
-      # enable_creation_date: true  # 设置文档创建日志
+      enable_creation_date: true  # 设置文档创建日志
   # 显示作者的头像
   - git-committers:
       repository: f0nesec/f0nesec-docs
