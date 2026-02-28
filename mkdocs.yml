@@ -158,6 +158,7 @@ nav:
       - 常用工具: Certifications/OSCP/13.md
     - OSWE 认证:
       - 概述: Certifications/OSWE/index.md
+      - 正则表达式: Certifications/OSWE/0.md
     - OSEP 认证:
       - 概述: Certifications/OSEP/index.md
     - OSED 认证:
