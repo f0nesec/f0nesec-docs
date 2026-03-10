@@ -122,6 +122,8 @@ nav:
       - 概述: Web-Application-Security/index.md
   - 活动目录安全（域控）:
       - 概述: Active-Directory-Security/index.md
+      - Impacket 工具使用: Active-Directory-Security/impacket.md
+      - Bloodyad 工具使用: Active-Directory-Security/bloodyad.md
   - 移动应用程序安全:
       - 概述: Mobile-Application-Security/index.md
   - 本地权限提升:
