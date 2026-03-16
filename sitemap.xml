@@ -2,294 +2,318 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Active-Directory-Security/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Active-Directory-Security/bloodyad/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Active-Directory-Security/impacket/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/0/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/1/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/10/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/11/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/12/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/13/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/2/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/3/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/4/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/5/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/6/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/7/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/8/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSCP/9/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSED/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSEP/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSWE/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSWE/0/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Certifications/OSWE/1/</loc>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Code-Audit/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Credential-Attacks/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Detection-Evasion/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Information-Gathering/</loc>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Information-Gathering/nmap/</loc>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Lateral-Movement/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Lateral-Movement/0/</loc>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Linux/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Linux/0/</loc>
+         <lastmod>2026-03-16</lastmod>
+    </url>
+    <url>
+         <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Linux/1/</loc>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Local-Privilege-Escalation/Windows/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Mobile-Application-Security/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/0/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/1/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/10/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/11/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/12/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/13/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/14/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/15/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/16/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/17/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/18/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/19/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/2/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/20/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/21/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/22/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/23/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/3/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/4/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/5/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/6/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/7/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/8/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/9/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/decimal/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/eval/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/exec/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/hashlib/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/json/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/open/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/openpyxl/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/pathlib/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/print/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/random/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/range/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/re/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/requstes/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/time/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Python/Module/xpinyin/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
     <url>
          <loc>https://f0nesec.github.io/f0nesec-docs/Web-Application-Security/</loc>
-         <lastmod>2026-03-10</lastmod>
+         <lastmod>2026-03-16</lastmod>
     </url>
 </urlset>
