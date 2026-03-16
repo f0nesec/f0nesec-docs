@@ -9,6 +9,7 @@ hide:
 
 **记录网络安全常用笔记（点击跳转指定模块）🔗🔗🔗**
 
+- [信息收集](Information-Gathering/index.md)
 - [Web 应用程序安全](Web-Application-Security/index.md)
 - [活动目录安全（域控）](Active-Directory-Security/index.md)
 - [移动应用程序安全](Mobile-Application-Security/index.md)

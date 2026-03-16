@@ -118,6 +118,9 @@ extra:
 # 配置目录结构
 nav:
   - 首页: index.md
+  - 信息收集:
+    - 概述: Information-Gathering/index.md
+    - Nmap 工具使用: Information-Gathering/nmap.md
   - Web 应用程序安全:
       - 概述: Web-Application-Security/index.md
   - 活动目录安全（域控）:
@@ -132,8 +135,11 @@ nav:
         - 概述: Local-Privilege-Escalation/Windows/index.md
     - Linux 本地权限提升:
         - 概述: Local-Privilege-Escalation/Linux/index.md
+        - 敏感文件检索: Local-Privilege-Escalation/Linux/0.md
+        - 配置信息检索: Local-Privilege-Escalation/Linux/1.md
   - 横向移动:
     - 概述: Lateral-Movement/index.md
+    - 端口转发: Lateral-Movement/0.md
   - 凭证攻击:
     - 概述: Credential-Attacks/index.md
   - 代码审计:
@@ -161,6 +167,7 @@ nav:
     - OSWE 认证:
       - 概述: Certifications/OSWE/index.md
       - 正则表达式: Certifications/OSWE/0.md
+      - PHP 代码审计: Certifications/OSWE/1.md
     - OSEP 认证:
       - 概述: Certifications/OSEP/index.md
     - OSED 认证:

