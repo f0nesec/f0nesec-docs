@@ -123,6 +123,7 @@ nav:
     - Nmap 工具使用: Information-Gathering/nmap.md
   - Web 应用程序安全:
       - 概述: Web-Application-Security/index.md
+      - SQL 注入漏洞: Web-Application-Security/0.md
   - 活动目录安全（域控）:
       - 概述: Active-Directory-Security/index.md
       - Impacket 工具使用: Active-Directory-Security/impacket.md
